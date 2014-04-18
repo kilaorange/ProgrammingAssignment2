@@ -78,7 +78,10 @@ cacheSolve <- function(x, ...) {
 
 
 
-## Unit test cases
+
+######################################################
+##    Unit test cases (Not part of code)
+######################################################
 
 ## Choose an invertible matrix called 'a'
 a <- rbind(c(2,3),c(2,2))
@@ -136,6 +139,12 @@ x$getInverse()
 ## Calculate Inverse Matrix and return it
 cacheSolve(x)
 
+
+######################################
+##    Test 2
+######################################
+s <- makeCacheMatrix(b)
+cacheSolve(s)
 
 
 
